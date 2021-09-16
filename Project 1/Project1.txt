@@ -1,0 +1,72 @@
+Commands we have run so far: 
+$ git clone https://github.com/dlobo1/Computational-Social-Science-Projects.git
+Cloning into 'Computational-Social-Science-Projects'.remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo (new_branch)
+$ mk dir "Project 1"
+bash: mk: command not found
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo (new_branch)
+$ mkdir "Project 1"
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo (new_branch)
+$ ls
+ Computational-Social-Science-Projects/  'Project 1'/   README.md
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo (new_branch)
+$ cd Project 1
+bash: cd: too many arguments
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo (new_branch)
+$ cd Project\ 1/
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo/Project 1 (new_branch)
+$ ls
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo/Project 1 (new_branch)
+$ ls
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo/Project 1 (new_branch)
+$ ls
+ls: cannot open directory '.': No such file or directory
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo/Project 1
+$ touch Project1.txt
+touch: cannot touch 'Project1.txt': No such file or directory
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo/Project 1
+$ mkdir cd /c/Users/danlo/OneDrive/Documents/CSSTP
+mkdir: cannot create directory ‘cd’: No such file or directory
+mkdir: cannot create directory ‘/c/Users/danlo/OneDrive/Documents/CSSTP’: File exists
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo/Project 1
+$ cd cd /c/Users/danlo/OneDrive/Documents/CSSTP
+bash: cd: too many arguments
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/my_first_repo/Project 1
+$ cd /c/Users/danlo/OneDrive/Documents/CSSTP
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP
+$ cd Computational-Social-Science-Projects/Project 1
+bash: cd: too many arguments
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP
+$ cd Computational-Social-Science-Projects/
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/Computational-Social-Science-Projects (main)
+$ cd Project\ 1/
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/Computational-Social-Science-Projects/Project 1 (main)
+$ touch Project1.txt
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/CSSTP/Computational-Social-Science-Projects/Project 1 (main)
+$ vim Project1.txt
+
+git add Project1.txt
+
+git commit -m"I have made changes."
+
+git push
